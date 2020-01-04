@@ -4,7 +4,7 @@ import Navigation from './components/Navigation/Navigation';
 
 //import LandingPage from './components/Landing';
 import SignUpPage from './components/SignUp/SignUp';
-//import SignInPage from './components/SignIn';
+import SignInPage from './components/SignIn/SignIn';
 //import PasswordForgetPage from './components/PasswordChange';
 //import HomePage from './components/Home';
 //import AccountPage from './components/Account';
@@ -18,8 +18,8 @@ const App = () => (
     {/*<Route exact path={ROUTES.LANDING} component={LandingPage} />*/
     }
       <Route path={ROUTES.SIGN_UP} component={SignUpPage} />
-      {//<Route path={ROUTES.SIGN_IN} component={SignInPage} />
-      //<Route path={ROUTES.PASSWORD_FORGET} component={PasswordForgetPage} />
+      <Route path={ROUTES.SIGN_IN} component={SignInPage} />
+      {//<Route path={ROUTES.PASSWORD_FORGET} component={PasswordForgetPage} />
     
       //<Route path={ROUTES.HOME} component={HomePage} />
      
